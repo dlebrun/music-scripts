@@ -1,2 +1,2 @@
-# music-scripts
-Various utility scripts for audio files in Linux
+# my-scripts
+Various utility scripts for my personal use in Linux
