@@ -1,3 +1,7 @@
+#!/bin/sh
+
+set -e
+
 # Create group "sda" and set it as default
 sudo addgroup --gid 1001 sda
 sudo adduser dom sda
