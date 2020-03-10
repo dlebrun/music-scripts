@@ -8,11 +8,10 @@ sudo usermod -g belighted dle
 sudo delgroup dle
 
 # Install extra softwares
-sudo add-apt-repository ppa:kubuntu-ppa/backports
 sudo add-apt-repository ppa:serge-rider/dbeaver-ce
-sudo apt update
-sudo apt full-upgrade
-sudo apt install build-essential git curl awscli flac kubuntu-restricted-addons kubuntu-restricted-extras network-manager-openvpn software-properties-common dbeaver-ce qgit htop apt-transport-https ca-certificates gnupg-agent software-properties-common
+sudo pkcon refresh
+sudo pkcon update
+sudo apt install build-essential git curl awscli flac kubuntu-restricted-addons kubuntu-restricted-extras network-manager-openvpn software-properties-common dbeaver-ce qgit htop apt-transport-https ca-certificates gnupg-agent software-properties-common muon kate
 
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo apt-key fingerprint 0EBFCD88
