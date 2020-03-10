@@ -21,5 +21,5 @@ sudo add-apt-repository ppa:team-xbmc/ppa
 sudo add-apt-repository ppa:subsurface/subsurface
 sudo apt update
 sudo apt full-upgrade
-sudo apt install git flac kubuntu-restricted-extras network-manager-openvpn ffmpeg software-properties-common libdvd-pkg kodi picard
+sudo apt install git flac kubuntu-restricted-extras network-manager-openvpn ffmpeg software-properties-common libdvd-pkg kodi picard subsurface
 sudo dpkg-reconfigure libdvd-pkg
