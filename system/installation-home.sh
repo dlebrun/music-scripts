@@ -20,5 +20,7 @@ sudo add-apt-repository ppa:team-xbmc/ppa
 sudo add-apt-repository ppa:subsurface/subsurface
 sudo pkcon refresh
 sudo pkcon update
-sudo apt install git flac kubuntu-restricted-extras network-manager-openvpn ffmpeg software-properties-common libdvd-pkg kodi picard subsurface muon kate
+sudo apt install git flac kubuntu-restricted-extras network-manager-openvpn ffmpeg software-properties-common libdvd-pkg kodi picard subsurface muon kate k3b digikam ktorrent
 sudo dpkg-reconfigure libdvd-pkg
+sudo snap install bitwarden
+sudo snap install authy
